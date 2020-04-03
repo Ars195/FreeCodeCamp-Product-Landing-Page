@@ -139,6 +139,61 @@ footer  {
   margin-bottom: 10px;
   background: #eee;
   margin-top: 2%;
-  text-align: right;
+  text-align: right; 
+}
+@keyframes background-color {
+    100% {
+      background-color: hsl(45, 70%, 65%);
+    }
+}
+
+@media(max-width: 590px) {
+  body {
+    font-size: 20%;
+  }
+  header {
+    grid-template-columns: 255px 1fr;
+  }
+  main {
+    top: 55px;
+  }
+ 
+  #nav-bar {
+    flex-direction: column;
+  }
+  .nav-link {
+    margin: 2px;
+  }
+  
+  .feature-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  i {
+    display: none;
+  }
+  #products {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .product-section { 
+    margin-top: 10px;
+  }
+  
+  footer {
+    margin-top: 65px; 
+  }
+}
+
+@media(max-width: 450px) {
+  body {
+    font-size: 75%;
+  }
+  header {
+    grid-template-columns: 210px 1fr;
+  }
 }
 
