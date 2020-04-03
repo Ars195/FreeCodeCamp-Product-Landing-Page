@@ -67,3 +67,19 @@ main {
     background-color: #f1c40f;
     margin-left: 25%;
   }
+  #features {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.feature-section {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  align-items: center;
+}
+
+i{
+  color: orange;
+}
