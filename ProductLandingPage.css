@@ -16,3 +16,22 @@ header {
   left: 0;
   padding-top: 5px;
 }
+#header-img {
+  grid-column: 1;
+  width: 100%;
+  align-self: center;
+}
+
+#nav-bar {
+  grid-column: 2;
+  align-self: center;
+  justify-self: right;
+  display: flex;
+  margin-right: 5px;
+}
+
+.nav-link {
+  text-decoration: inherit;
+  color: inherit;
+  margin: 5px;
+}
