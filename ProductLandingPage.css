@@ -133,3 +133,12 @@ i{
     background-color: #f1c40f;
     
   }
+footer  {
+  font-size: 85%;
+  color: gray;
+  margin-bottom: 10px;
+  background: #eee;
+  margin-top: 2%;
+  text-align: right;
+}
+
