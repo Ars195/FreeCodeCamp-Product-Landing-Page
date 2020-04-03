@@ -59,3 +59,11 @@ main {
   grid-template-rows: 1fr 1fr;
   grid-gap: 10px;
 }
+.submit{
+    max-width: 150px;
+    width: 50%;
+    height: 23px;
+    border: 0;
+    background-color: #f1c40f;
+    margin-left: 25%;
+  }
